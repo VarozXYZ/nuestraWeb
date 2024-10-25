@@ -55,7 +55,7 @@ footer {
     text-align: center;
 }
 .grid-container {
-    display: list-item inline;
+    display: list-item block flow;
     column-count: 3;
     text-align: justify;
 }
