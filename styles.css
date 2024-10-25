@@ -47,3 +47,15 @@ footer {
     text-align: center;
     padding: 5px 0;
 }
+
+
+.column-content {
+    background-color: #f3f3f3;
+    padding: 20px;
+    text-align: center;
+}
+.grid-container {
+    display: list-item inline;
+    column-count: 3;
+    text-align: justify;
+}
