@@ -9,11 +9,11 @@ header {
     background-color: #eebbbb;
     color: #000000;
     text-align: center;
-    padding: 20px 0;
+    padding: 0px 0;
 }
 
 header h1 {
-    margin: 0;
+    margin: 2;
 }
 
 main {
@@ -34,6 +34,8 @@ a {
     background-color: #000000;
     padding: 5px 10px;
     border-radius: 15px;
+    position: relative;
+    top: 1430px; left: 40px;
 }
 
 a:hover {
@@ -55,3 +57,5 @@ footer {
     gap: 20px; /* Espacio entre las columnas */
     padding: 20px;
 }
+
+
