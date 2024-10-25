@@ -49,13 +49,9 @@ footer {
 }
 
 
-.column-content {
-    background-color: #f3f3f3;
-    padding: 20px;
-    text-align: center;
-}
 .grid-container {
-    display: list-item block flow;
-    column-count: 3;
-    text-align: justify;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Tres columnas del mismo tamaño */
+    gap: 20px; /* Espacio entre las columnas */
+    padding: 20px;
 }
